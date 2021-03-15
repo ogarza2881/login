@@ -1,7 +1,7 @@
 <template>
-<section class="max-w-2xl mx-auto rounded bg-neutral ">
-	<div class="container flex items-center justify-center text-center">
-		<form @submit.prevent class="flex flex-col w-full max-w-lg p-12 rounded shadow-lg ">
+<section class="max-w-2xl mx-auto rounded bg-neutral">
+	<div class="container flex items-center justify-center text-center ">
+		<form @submit.prevent class="flex flex-col w-full max-w-lg p-12 rounded shadow-lg">
 			<label for="username" class="self-start text-xs font-semibold text-coolGray-100">Username or Email</label>
 			<input id="username" type="text" class="flex items-center h-12 px-4 mt-2 rounded focus:outline-none focus:ring-2 text-coolGray-900">
 			<label for="password" class="self-start mt-3 text-xs font-semibold text-coolGray-100">Password</label>

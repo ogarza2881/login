@@ -1,3 +1,3 @@
 <template>
-<h1>Home page</h1>
+    <img class="h-60 mx-auto mt-80" src="../assets/home.png" alt="Home Image" />
 </template>
